@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 st.title("翻訳アプリ")
-source_languages = ["英語", "日本語", "丁寧な日本語", "2ちゃんまとめ風"]
+source_languages = ["英語", "日本語", "丁寧な日本語", "2ちゃんまとめ風", "すっごい丁寧なイギリス英語"]
 
 row1_left, row1_center, row1_right = st.columns((4, 0.5, 4))
 row2_left, row2_right = st.columns(2)
